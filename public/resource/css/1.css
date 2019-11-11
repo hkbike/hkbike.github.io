@@ -1,0 +1,169 @@
+table tbody tr.show_1 td{
+  line-height: 1.5;
+  padding-top: 15px;
+}
+.mauchu a{
+  color: #ffffff !important;
+}
+.mauchu1 li a{
+  color: #222C30 !important;
+}
+li.menu-title{
+  padding-left: 15px !important;
+}
+li.menu-title h5{
+  font-size: 15px !important;
+  font-weight: bold;
+  color: #337AB7;
+}
+
+.motkhoi h5{
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+    color: #337AB7;
+    font-size: 16px;
+
+}
+.motkhoi h5{
+	background:url('../images/arrow-down.png') no-repeat right; 
+	background-size: 4%;
+	cursor: pointer !important;
+}
+.motkhoi h5.up{
+	background: url('../images/arrow-up.png') no-repeat right;
+	background-size: 4%;
+}
+ul.ttsp li{
+  width: 100%;
+  display: inline-block;
+}
+ul.ttsp li:nth-child(odd){
+    background: #f4f4f4;
+}
+ul.ttsp li span.label-col{
+  width: 45%;
+  float: left;
+  font-weight: 600;
+}
+ul.ttsp li span.content-col{
+  width: 45%;
+  float: left;
+}
+ul.ttsp li span{
+  padding: 5%;
+}
+.chi-tiet ul.ttsp{
+  padding: 0px;
+}
+ul.ttsp li span.label-col-1{
+  width: 60%;
+  float: left;
+  font-weight: 600;
+}
+ul.ttsp li span.content-col-1{
+  width: 30%;
+  float: left;
+}
+.list-products .product-item.style2 .product-inner{
+  border:1px solid #e6e6e6;
+  padding: 21px 10px 25px 10px;
+  margin-top: 20px;
+}
+
+/*xem chi tiet sp*/
+ul.ttsp li span.label-col-sp{
+  width: 50%;
+  float: left;
+  font-weight: 600;
+}
+ul.ttsp li span.content-col-sp{
+  width: 40%;
+  float: left;
+}
+.thong-tin-sp ul.ttsp li span{
+  padding: 2%;
+}
+.thong-tin-sp{
+/*  border: 2px solid gray;
+  padding: 10px 5px;
+  border-radius: 3%;*/
+}
+.form-dangky{
+  background-color: #ffffff;
+  border-top:2px solid #8080804f;
+  border-bottom:2px solid #8080804f;
+  margin-bottom: 20px;
+}
+.table-admin{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  
+}
+.tieu-de-ad{
+  margin-top: 30px;
+  margin-bottom: 30px
+}
+  .tieu-de-ad h3 i {
+    padding-right: 5px;
+  }
+  .tieu-de-ad h3 i a{
+    padding-right: 10px;
+  }
+  .tieu-de-ad h3 a{
+    font-size: 14px;
+  }
+  .tieu-de-ad h3 a:hover{
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+
+.tim-kiem form{
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+  .tim-kiem button{
+    border-radius: 0px 5px 5px 0px;
+  }
+  .tieu-de{
+    margin-top: 10px;
+  }
+    .tieu-de h5{
+      font-size: 16px;
+      font-weight: 600;
+    }
+
+  .tieu-de2 h5{
+     font-size: 16px;
+      font-weight: 600;
+      padding-left: 15px;
+  }
+  ul.sp-tk{
+    padding: 0px;
+  }
+    ul.sp-tk li{
+      list-style: none;
+      display: inline-block;
+      box-sizing: border-box;
+    }
+
+.product-item{
+  width: 100%;
+  height: 350px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+  .product-item .anh{
+    width: 100%;
+    height: 150px;
+  }
+  .product-item .anh img.img-sp{
+    width: 100%;
+    height: 150px;
+    transition: 0.4s;
+    transform: scale(0.8);
+  }
+  .product-item .anh:hover img.img-sp{
+    transform: scale(1.0);
+  }
